@@ -5,8 +5,8 @@ on:
 #      - main
   schedule:
     # runs tests every day a
-      t 4, 8, 12, 16, 20
-    - cron: '0 8,16 * * *'
+    #  t 4, 8, 12, 16, 20
+    - cron: '0 6,13 * * *'
 jobs:
   scrape:
     runs-on: ubuntu-latest
